@@ -15,7 +15,7 @@ namespace Business.ColorButton
 
         private void OnColorButtonClicked()
         {
-            Debug.Log("El boton fue clickealo");
+            Debug.Log("El boton fue clickeado");
         }
     }
 }
