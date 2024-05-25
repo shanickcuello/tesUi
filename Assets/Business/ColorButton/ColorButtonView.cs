@@ -1,3 +1,12 @@
+using System;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace Business.ColorButton
+{
+    public class ColorButtonView : MonoBehaviour
+    {
+        public Button _button;
         private void Awake()
         {
             _button = GetComponent<Button>();
